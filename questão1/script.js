@@ -8,10 +8,10 @@ button.addEventListener("click", () => {
     let li = document.createElement("li");
     let ul = document.getElementById("list");
     ul.appendChild(li);
-    li.innerHTML = numeroAleatorio;
+    li.textContent = numeroAleatorio;
 });
 
 butLimpar.addEventListener("click", () => {
     let ul = document.getElementById("list");
-    ul.innerHTML = null;
+    ul.textContent = null;
 });

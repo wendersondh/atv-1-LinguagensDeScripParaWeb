@@ -11,10 +11,10 @@ button.addEventListener("click" , () =>{
     let result = calcularMelhorCombustivel(gasolina, alcool);
     let resposta = document.getElementById("resposta")
     if(result == 0){
-        resposta.innerHTML = `gasolina`
+        resposta.textContent = `gasolina`
     }
     else{
-        resposta.innerHTML = `Álcool`
+        resposta.textContent = `Álcool`
     }
 })
 

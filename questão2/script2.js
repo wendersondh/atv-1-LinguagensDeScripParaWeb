@@ -7,5 +7,5 @@ button.addEventListener('click', () => {
     const expoente = document.getElementById("expoente").value
     let result = calcularPotencia(base, expoente);
     let p = document.getElementById("valor")
-    p.innerHTML = `resultado: ${result}`
+    p.textContent = `resultado: ${result}`
 });
